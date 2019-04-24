@@ -31,6 +31,7 @@ The `npm run` command will list all of the scripts available to run for this pro
 ### ElasticSearch and Kibana Configure
 Download ElasticSearch 5.5 from [elasticSearch_5.5] and also download kibana 5.5 from [kibana_5.5]. After that extract both zip files.
 open elasticsearch.yml from config folder and update 
+
 cluster.name: cluster_name  >same as in application-dev.yml file
 path.data: /path/directory  >Path to directory where to store the data
 
