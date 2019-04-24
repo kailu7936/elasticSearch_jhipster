@@ -28,6 +28,14 @@ Add the `help` flag on any command to see how you can use it. For example, `npm 
 
 The `npm run` command will list all of the scripts available to run for this project.
 
+### ElasticSearch and Kibana Configure
+Download ElasticSearch 5.5 from [elasticSearch_5.5] and also download kibana 5.5 from [kibana_5.5]. After that extract both zip files.
+open elasticsearch.yml from config folder and update 
+cluster.name: cluster_name  >same as in application-dev.yml file
+path.data: /path/directory  >Path to directory where to store the data
+
+start the elasticsearch server /bin/elasticsearch.bat
+
 ### Service workers
 
 Service workers are commented by default, to enable them please uncomment the following code.
@@ -177,3 +185,5 @@ To configure CI for your project, run the ci-cd sub-generator (`jhipster ci-cd`)
 [protractor]: https://angular.github.io/protractor/
 [leaflet]: http://leafletjs.com/
 [definitelytyped]: http://definitelytyped.org/
+[elasticSearch_5.5]: https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5.5.3.zip
+[kibana_5.5]: https://artifacts.elastic.co/downloads/kibana/kibana-5.5.3-windows-x86.zip
