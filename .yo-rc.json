@@ -1,0 +1,35 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "com.avs.demo"
+        },
+        "jhipsterVersion": "5.8.1",
+        "applicationType": "monolith",
+        "baseName": "elkspringdemo",
+        "packageName": "com.avs.demo",
+        "packageFolder": "com/avs/demo",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "hazelcast",
+        "enableHibernateCache": true,
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "mysql",
+        "prodDatabaseType": "mysql",
+        "searchEngine": "elasticsearch",
+        "messageBroker": false,
+        "serviceDiscoveryType": false,
+        "buildTool": "maven",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "MGIwMzA4NDQ1MGJmOGJlZjhkNzVjNWJlYmNmYjI2ZThhM2ZkZDBlZDMxODQ4ODllYjVkMjBiZDM3NmVmYjE0OWVkMjhjMGM1ZWQwYzg0Mjc5MGIyNWVkMTcwYTg2YzllMWE1MGRmOWYxNDAxNmRkOTA3OTMwOTg5ZjRhYzRlOTU=",
+        "clientFramework": "angularX",
+        "useSass": true,
+        "clientPackageManager": "npm",
+        "testFrameworks": ["gatling", "cucumber", "protractor"],
+        "jhiPrefix": "jhi",
+        "entitySuffix": "",
+        "dtoSuffix": "DTO",
+        "otherModules": [],
+        "enableTranslation": false
+    }
+}
